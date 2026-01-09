@@ -1,111 +1,17 @@
-<div align="center">
-  <img src="public/assets/logo-baladre.png" alt="Baladre Logo" width="200" />
+<div align="center"><img src="public/assets/logo-baladre.png" alt="Baladre Logo" width="250" />🎲 B A L A D R EEl roguelike de dados que combina estrategia, neón y desesperación.<!-- BADGES DE ESTADO (Visuales) --><p><a href="https://www.google.com/search?q=https://github.com/TU_USUARIO/TU_REPO/graphs/contributors"><img src="https://www.google.com/search?q=https://img.shields.io/github/contributors/TU_USUARIO/TU_REPO%3Fstyle%3Dfor-the-badge%26color%3Dblue" alt="Contributors" /></a><a href="https://www.google.com/search?q=https://github.com/TU_USUARIO/TU_REPO/commits/main"><img src="https://www.google.com/search?q=https://img.shields.io/github/last-commit/TU_USUARIO/TU_REPO%3Fstyle%3Dfor-the-badge%26color%3Dred" alt="Last Commit" /></a><a href="https://www.google.com/search?q=https://github.com/TU_USUARIO/TU_REPO"><img src="https://www.google.com/search?q=https://img.shields.io/github/repo-size/TU_USUARIO/TU_REPO%3Fstyle%3Dfor-the-badge%26color%3Dyellow" alt="Repo Size" /></a><a href="https://www.google.com/search?q=https://github.com/TU_USUARIO/TU_REPO/issues"><img src="https://www.google.com/search?q=https://img.shields.io/github/issues/TU_USUARIO/TU_REPO%3Fstyle%3Dfor-the-badge%26color%3Dorange" alt="Issues" /></a></p><!-- STACK TECNOLÓGICO --><p><img src="https://img.shields.io/badge/php-%5E8.2-777BB4?style=for-the-badge&logo=php&logoColor=white" /><img src="https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white" /><img src="https://img.shields.io/badge/livewire-%234e56a6.svg?style=for-the-badge&logo=livewire&logoColor=white" /><img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" /><img src="https://www.google.com/search?q=https://img.shields.io/badge/alpinejs-%25238BC0D0.svg%3Fstyle%3Dfor-the-badge%26logo%3Dalpine.js%26logoColor%3Dwhite" /><img src="https://www.google.com/search?q=https://img.shields.io/badge/mysql-%252300f.svg%3Fstyle%3Dfor-the-badge%26logo%3Dmysql%26logoColor%3Dwhite" /></p><br /></div>🔮 Sobre el ProyectoBaladre es nuestro Proyecto Final de Ciclo (DAW). Una reinterpretación "vitaminada" y basada en dados del exitoso Balatro.El objetivo es simple: conseguir puntos haciendo jugadas de póker con dados (parejas, fulls, escaleras) para superar ciegas cada vez más absurdas. Todo ello envuelto en una estética Cyber-Neón oscura y minimalista.Advertencia: El código puede contener trazas de cafeína y noches sin dormir. No es un casino real, la única divisa son los "Baladrones" y tu cordura.⚡ Características Principales<table><tr><td width="50%"><h3>🔐 Sistema de Usuarios</h3><ul><li>Registro completo y recuperación de contraseña (SMTP).</li><li>Perfiles personalizables con avatares.</li><li>Seguimiento de estadísticas por jugador.</li></ul></td><td width="50%"><h3>🎲 Gameplay Reactivo</h3><ul><li>Físicas de dados y animaciones CSS/JS.</li><li>Sistema de <b>Bloqueo (Lock)</b> y <b>Reroll</b> estratégico.</li><li>Algoritmo de detección de manos (Full, Poker, Escalera...).</li></ul></td></tr><tr><td width="50%"><h3>📈 Progresión Roguelike</h3><ul><li><b>24 Rondas:</b> 6 Ciegas x 3 Niveles de dificultad progresiva.</li><li><b>Tienda:</b> Gasta Baladrones para mejorar tus rerolls y bloqueos.</li><li><b>Economía:</b> Gana monedas base + bonificaciones por jugada.</li></ul></td><td width="50%"><h3>🎨 UI/UX Inmersiva</h3><ul><li>Diseño <i>Mobile-First</i> (aunque se juega mejor en PC).</li><li>Modo oscuro obligatorio con paleta neón (🔴🔵🟡).</li><li>Feedback visual instantáneo gracias a <b>Livewire</b>.</li></ul></td></tr></table>📸 Galería (WIP)LoginMesa de JuegoTienda<img src="https://www.google.com/search?q=https://via.placeholder.com/300x150.png%3Ftext%3DLogin%2BScreen" alt="Login" /><img src="https://www.google.com/search?q=https://via.placeholder.com/300x150.png%3Ftext%3DGame%2BBoard" alt="Gameplay" /><img src="https://www.google.com/search?q=https://via.placeholder.com/300x150.png%3Ftext%3DShop%2BSystem" alt="Shop" />🚀 Instalación y DespliegueSigue estos pasos para desplegar el entorno de desarrollo local:# 1. Clonar repositorio
+git clone [https://github.com/TU_USUARIO/TU_REPO.git](https://github.com/TU_USUARIO/TU_REPO.git)
 
-  # 🎲 B A L A D R E
+# 2. Instalar dependencias backend & frontend
+composer install
+npm install && npm run build
 
-  **El juego de dados que no sabías que necesitabas (y probablemente sigas sin necesitar).**
+# 3. Configurar entorno
+cp .env.example .env
+php artisan key:generate
 
-  [![PHP Version](https://img.shields.io/badge/php-%5E8.2-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/)
-  [![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)
-  [![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
-  [![Livewire](https://img.shields.io/badge/livewire-%234e56a6.svg?style=for-the-badge&logo=livewire&logoColor=white)](https://livewire.laravel.com)
+# 4. Base de datos & Seeds
+php artisan migrate --seed
 
-  <p>
-    <a href="#-sobre-el-proyecto">Sobre el Proyecto</a> •
-    <a href="#-mecánicas">Mecánicas</a> •
-    <a href="#-instalación">Instalación</a> •
-    <a href="#-equipo">El Equipo</a>
-  </p>
-</div>
-
----
-
-## 🔮 Sobre el Proyecto
-
-**Baladre** es nuestro Proyecto Final de Ciclo (DAW). Es una reinterpretación "vitaminada" y basada en dados del exitoso *Balatro*.
-
-El objetivo es simple: conseguir puntos haciendo jugadas de póker con dados (parejas, fulls, escaleras) para superar ciegas cada vez más absurdas. Todo ello envuelto en una estética **Cyber-Neón** oscura y minimalista.
-
-> **Nota:** No es un casino, no apostamos dinero real. La única divisa aquí son los "Baladrones" y tu estabilidad mental intentando sacar un Repóker.
-
-### 📸 Capturas (Próximamente)
-
-| Login Psicodélico | Tablero de Juego | La Tienda |
-|:---:|:---:|:---:|
-| ** | ** | ** |
-
----
-
-## ⚡ Características Principales
-
-* **Sistema de Cuentas:** Registro, login, recuperación de contraseña y perfiles de usuario con avatares.
-* **Gameplay Reactivo:** * Tiradas de dados con físicas (bueno, animaciones CSS/JS chulas).
-    * Sistema de **Bloqueo (Lock)** y **Reroll**.
-    * Detección automática de manos (Full, Escalera, etc.).
-* **Progresión Roguelike:**
-    * 6 Ciegas, 3 niveles cada una (24 rondas de sufrimiento).
-    * Tienda de mejoras permanentes: Compra más rerolls o bloqueos usando **Baladrones**.
-* **Estética:** Modo oscuro obligatorio. Paleta de colores restringida (🔴 Rojo, 🔵 Azul, 🟡 Amarillo) sobre negro profundo.
-
----
-
-## 🛠️ Stack Tecnológico
-
-Hemos decidido simular un entorno de desarrollo moderno y ágil, alejándonos de SPAs complejas innecesarias para este caso de uso:
-
-* **Backend:** Laravel 10/11 (PHP).
-* **Frontend & Reactividad:** Laravel Livewire 3 (Lógica de servidor en tiempo real).
-* **Estilos:** Tailwind CSS (Para no perder la vida centrando divs).
-* **Micro-interacciones:** Alpine.js.
-* **Base de Datos:** MySQL / MariaDB.
-
----
-
-## 🚀 Instalación y Despliegue
-
-¿Quieres probar Baladre en local? Sigue estos pasos y reza para que no falte ninguna dependencia.
-
-1.  **Clonar el repositorio**
-    ```bash
-    git clone [https://github.com/tu-usuario/baladre.git](https://github.com/tu-usuario/baladre.git)
-    cd baladre
-    ```
-
-2.  **Instalar dependencias de PHP y Node**
-    ```bash
-    composer install
-    npm install && npm run build
-    ```
-
-3.  **Configurar entorno**
-    ```bash
-    cp .env.example .env
-    php artisan key:generate
-    ```
-    *Configura tu base de datos en el archivo `.env`.*
-
-4.  **Migraciones (Crear las tablas)**
-    ```bash
-    php artisan migrate --seed
-    ```
-
-5.  **Lanzar**
-    ```bash
-    php artisan serve
-    ```
-
----
-
-## 💀 El Equipo (Los Culpables)
-
-Este proyecto ha sido desarrollado con amor, estrés y mucho código por:
-
-* 💻 **Rubén Gálvez** - *Full Stack Developer & Domador de CSS*
-* 🎨 **Álvaro García** - *Frontend Architect & Animaciones*
-* ⚙️ **Iker Muñoz** - *Backend Logic & Database Master*
-
----
-
-<div align="center">
-    <sub>Proyecto realizado para el ciclo de Desarrollo de Aplicaciones Web (DAW) - 2024/2025</sub>
-</div>
+# 5. Ejecutar servidor
+php artisan serve
+💀 El Equipo<table align="center"><tr><td align="center" width="200px"><a href="https://www.google.com/search?q=https://github.com/rubengalvez"><img src="https://www.google.com/search?q=https://avatars.githubusercontent.com/u/TU_ID_RUBEN%3Fv%3D4" width="100px;" alt=""/><br /><sub><b>Rubén Gálvez</b></sub></a><br /><small>Full Stack & CSS Master</small></td><td align="center" width="200px"><a href="https://www.google.com/search?q=https://github.com/alvarogarcia"><img src="https://www.google.com/search?q=https://avatars.githubusercontent.com/u/TU_ID_ALVARO%3Fv%3D4" width="100px;" alt=""/><br /><sub><b>Álvaro García</b></sub></a><br /><small>Frontend Architect & FX</small></td><td align="center" width="200px"><a href="https://www.google.com/search?q=https://github.com/ikermunoz"><img src="https://www.google.com/search?q=https://avatars.githubusercontent.com/u/TU_ID_IKER%3Fv%3D4" width="100px;" alt=""/><br /><sub><b>Iker Muñoz</b></sub></a><br /><small>Backend Logic & DB</small></td></tr></table>📊 Estadísticas del Proyecto (La zona del "Flex")Aquí es donde demostramos que hemos trabajado (y no solo mirado la pantalla).🏗️ Estructura del Lenguaje<!-- Esta barra cambia sola según el código que subáis --><div align="center"><img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3DTU_USUARIO%26repo%3DTU_REPO%26layout%3Dcompact%26theme%3Dvision-friendly-dark%26hide_border%3Dtrue" /></div>🏆 Top Contribuidores<!-- Esto mostrará vuestras caras en círculos basándose en quién hace commits --><a href="https://www.google.com/search?q=https://github.com/TU_USUARIO/TU_REPO/graphs/contributors"><img src="https://www.google.com/search?q=https://contrib.rocks/image%3Frepo%3DTU_USUARIO/TU_REPO" /></a>📉 Historial de Actividad<!-- Gráfico de actividad del repo --><img src="https://www.google.com/search?q=https://github-readme-activity-graph.vercel.app/graph%3Fusername%3DTU_USUARIO%26theme%3Dreact-dark" width="100%"/><div align="center"><sub><b>IES Camp de Morvedre</b> - Desarrollo de Aplicaciones Web (DAW) - 2025/2026</sub><small>Hecho con ❤️ y mucho Laravel</small></div>
