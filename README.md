@@ -1,17 +1,110 @@
-<div align="center"><!-- LOGO GENERADO AUTOMÁTICAMENTE (Puedes cambiarlo luego por el tuyo) --><img src="https://www.google.com/search?q=https://placehold.co/400x150/0f0f0f/777BB4%3Ftext%3DBALADRE%26font%3Dmonsterrat" alt="Baladre Logo" />🎲 B A L A D R EEl roguelike de dados que combina estrategia, neón y desesperación.<!-- BADGES (Escudos que siempre se ven bien) --><p><img src="https://www.google.com/search?q=https://img.shields.io/badge/ESTADO-EN%2520DESARROLLO-orange%3Fstyle%3Dfor-the-badge%26logo%3Dgithub" alt="Estado" /><img src="https://www.google.com/search?q=https://img.shields.io/badge/LICENCIA-MIT-green%3Fstyle%3Dfor-the-badge" alt="Licencia" /><img src="https://www.google.com/search?q=https://img.shields.io/badge/VERSI%C3%93N-1.0.0-blue%3Fstyle%3Dfor-the-badge" alt="Versión" /></p><!-- STACK TECNOLÓGICO --><p><img src="https://img.shields.io/badge/php-%5E8.2-777BB4?style=for-the-badge&logo=php&logoColor=white" /><img src="https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white" /><img src="https://img.shields.io/badge/livewire-%234e56a6.svg?style=for-the-badge&logo=livewire&logoColor=white" /><img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" /><img src="https://www.google.com/search?q=https://img.shields.io/badge/alpinejs-%25238BC0D0.svg%3Fstyle%3Dfor-the-badge%26logo%3Dalpine.js%26logoColor%3Dwhite" /><img src="https://www.google.com/search?q=https://img.shields.io/badge/mysql-%252300f.svg%3Fstyle%3Dfor-the-badge%26logo%3Dmysql%26logoColor%3Dwhite" /></p><br /></div>🔮 Sobre el ProyectoBaladre es nuestro Proyecto Final de Ciclo (DAW). Una reinterpretación "vitaminada" y basada en dados del exitoso Balatro.El objetivo es simple: conseguir puntos haciendo jugadas de póker con dados (parejas, fulls, escaleras) para superar ciegas cada vez más absurdas. Todo ello envuelto en una estética Cyber-Neón oscura y minimalista.Advertencia: El código puede contener trazas de cafeína y noches sin dormir. No es un casino real, la única divisa son los "Baladrones" y tu cordura.⚡ Características Principales<table><tr><td width="50%"><h3>🔐 Sistema de Usuarios</h3><ul><li>Registro completo y recuperación de contraseña (SMTP).</li><li>Perfiles personalizables con avatares.</li><li>Seguimiento de estadísticas por jugador.</li></ul></td><td width="50%"><h3>🎲 Gameplay Reactivo</h3><ul><li>Físicas de dados y animaciones CSS/JS.</li><li>Sistema de <b>Bloqueo (Lock)</b> y <b>Reroll</b> estratégico.</li><li>Algoritmo de detección de manos (Full, Poker, Escalera...).</li></ul></td></tr><tr><td width="50%"><h3>📈 Progresión Roguelike</h3><ul><li><b>24 Rondas:</b> 6 Ciegas x 3 Niveles de dificultad progresiva.</li><li><b>Tienda:</b> Gasta Baladrones para mejorar tus rerolls y bloqueos.</li><li><b>Economía:</b> Gana monedas base + bonificaciones por jugada.</li></ul></td><td width="50%"><h3>🎨 UI/UX Inmersiva</h3><ul><li>Diseño <i>Mobile-First</i> (aunque se juega mejor en PC).</li><li>Modo oscuro obligatorio con paleta neón (🔴🔵🟡).</li><li>Feedback visual instantáneo gracias a <b>Livewire</b>.</li></ul></td></tr></table>📸 Galería (Prototipo)<!-- Estas imágenes se generan solas para simular cómo quedará. Cuando tengas capturas reales, cambia los links -->Pantalla de LoginMesa de JuegoTienda de Mejoras<img src="https://www.google.com/search?q=https://placehold.co/300x160/1a1a1a/38B2AC%3Ftext%3DLogin%2BPage%26font%3Droboto" alt="Login" /><img src="https://www.google.com/search?q=https://placehold.co/300x160/1a1a1a/FF2D20%3Ftext%3DMesa%2Bde%2BJuego%26font%3Droboto" alt="Gameplay" /><img src="https://www.google.com/search?q=https://placehold.co/300x160/1a1a1a/F2D024%3Ftext%3DTienda%2BNeon%26font%3Droboto" alt="Shop" />🚀 Instalación y DespliegueSigue estos pasos para desplegar el entorno de desarrollo local:# 1. Clonar repositorio
-git clone [https://github.com/tu-usuario/baladre.git](https://github.com/tu-usuario/baladre.git)
+<div align="center">
+  <img src="public/assets/logo-baladre.png" alt="Baladre Logo" width="200" />
 
-# 2. Instalar dependencias backend & frontend
-composer install
-npm install && npm run build
+  # 🎲 B A L A D R E
 
-# 3. Configurar entorno
-cp .env.example .env
-php artisan key:generate
+  **El juego de dados que no sabías que necesitabas (y probablemente sigas sin necesitar).**
 
-# 4. Base de datos & Seeds
-php artisan migrate --seed
+  [![PHP Version](https://img.shields.io/badge/php-%5E8.2-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/)
+  [![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)
+  [![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
+  [![Livewire](https://img.shields.io/badge/livewire-%234e56a6.svg?style=for-the-badge&logo=livewire&logoColor=white)](https://livewire.laravel.com)
 
-# 5. Ejecutar servidor
-php artisan serve
-💀 El Equipo<!-- Estos avatares se generan solos con vuestras iniciales. No toques nada. --><table align="center"><tr><td align="center" width="200px"><img src="https://www.google.com/search?q=https://ui-avatars.com/api/%3Fname%3DRuben%2BGalvez%26background%3D0D8ABC%26color%3Dfff%26size%3D100%26rounded%3Dtrue" alt="Ruben"/><br /><sub><b>Rubén Gálvez</b></sub><br /><small>Full Stack & CSS Master</small></td><td align="center" width="200px"><img src="https://www.google.com/search?q=https://ui-avatars.com/api/%3Fname%3DAlvaro%2BGarcia%26background%3DFF2D20%26color%3Dfff%26size%3D100%26rounded%3Dtrue" alt="Alvaro"/><br /><sub><b>Álvaro García</b></sub><br /><small>Frontend Architect & FX</small></td><td align="center" width="200px"><img src="https://www.google.com/search?q=https://ui-avatars.com/api/%3Fname%3DIker%2BMunoz%26background%3DF2D024%26color%3D000%26size%3D100%26rounded%3Dtrue" alt="Iker"/><br /><sub><b>Iker Muñoz</b></sub><br /><small>Backend Logic & DB</small></td></tr></table>📊 Estadísticas del Proyecto<!-- Estas barras se rellenarán solas cuando subáis el código a GitHub --><div align="center"><h3>Tecnologías Usadas</h3><img src="https://www.google.com/search?q=https://placehold.co/600x20/38B2AC/38B2AC" alt="Barra decorativa" /><p><i>Las estadísticas dinámicas aparecerán aquí una vez el repositorio sea público.</i></p></div><div align="center"><sub><b>IES Camp de Morvedre</b> - Desarrollo de Aplicaciones Web (DAW) - 2025/2026</sub><small>Hecho con ❤️ y mucho Laravel</small></div>
+  <p>
+    <a href="#-sobre-el-proyecto">Sobre el Proyecto</a> •
+    <a href="#-mecánicas">Mecánicas</a> •
+    <a href="#-instalación">Instalación</a> •
+    <a href="#-equipo">El Equipo</a>
+  </p>
+</div>
+
+---
+
+## 🔮 Sobre el Proyecto
+
+**Baladre** es nuestro Proyecto Final de Ciclo (DAW). Es una reinterpretación "vitaminada" y basada en dados del exitoso *Balatro*.
+
+El objetivo es simple: conseguir puntos haciendo jugadas de póker con dados (parejas, fulls, escaleras) para superar ciegas cada vez más absurdas. Todo ello envuelto en una estética **Cyber-Neón** oscura y minimalista.
+
+> **Nota:** No es un casino, no apostamos dinero real. La única divisa aquí son los "Baladrones" y tu estabilidad mental intentando sacar un Repóker.
+
+### 📸 Capturas (Próximamente)
+
+| Login Psicodélico | Tablero de Juego | La Tienda |
+|:---:|:---:|:---:|
+| ** | ** | ** |
+
+---
+
+## ⚡ Características Principales
+
+* **Sistema de Cuentas:** Registro, login, recuperación de contraseña y perfiles de usuario con avatares.
+* **Gameplay Reactivo:** * Tiradas de dados con físicas (bueno, animaciones CSS/JS chulas).
+    * Sistema de **Bloqueo (Lock)** y **Reroll**.
+    * Detección automática de manos (Full, Escalera, etc.).
+* **Progresión Roguelike:**
+    * 6 Ciegas, 3 niveles cada una (18 rondas de sufrimiento).
+    * Tienda de mejoras permanentes: Compra más rerolls o bloqueos usando **Baladrones**.
+* **Estética:** Modo oscuro obligatorio. Paleta de colores restringida (🔴 Rojo, 🔵 Azul, 🟡 Amarillo) sobre negro profundo.
+
+---
+
+## 🛠️ Stack Tecnológico
+
+Hemos decidido simular un entorno de desarrollo moderno y ágil, alejándonos de SPAs complejas innecesarias para este caso de uso:
+
+* **Backend:** Laravel 10/11 (PHP).
+* **Frontend & Reactividad:** Laravel Livewire 3 (Lógica de servidor en tiempo real).
+* **Estilos:** Tailwind CSS.
+* **Base de Datos:** MySQL / MariaDB.
+
+---
+
+## 🚀 Instalación y Despliegue
+
+¿Quieres probar Baladre en local? Sigue estos pasos y reza para que no falte ninguna dependencia.
+
+1.  **Clonar el repositorio**
+    ```bash
+    git clone [https://github.com/tu-usuario/baladre.git](https://github.com/tu-usuario/baladre.git)
+    cd baladre
+    ```
+
+2.  **Instalar dependencias de PHP y Node**
+    ```bash
+    composer install
+    npm install && npm run build
+    ```
+
+3.  **Configurar entorno**
+    ```bash
+    cp .env.example .env
+    php artisan key:generate
+    ```
+    *Configura tu base de datos en el archivo `.env`.*
+
+4.  **Migraciones (Crear las tablas)**
+    ```bash
+    php artisan migrate --seed
+    ```
+
+5.  **Lanzar**
+    ```bash
+    php artisan serve
+    ```
+
+---
+
+## 💀 El Equipo (Los Culpables)
+
+Este proyecto ha sido desarrollado con amor, estrés y mucho código por:
+
+* 💻 **Rubén Gálvez** - *Full Stack Developer & Domador de CSS*
+* 🎨 **Álvaro García** - *Frontend Architect & Animaciones*
+* ⚙️ **Iker Muñoz** - *Backend Logic & Database Master*
+
+---
+
+<div align="center">
+    <sub>Proyecto realizado para el ciclo de Desarrollo de Aplicaciones Web (DAW) - 2025/2026</sub>
+</div>
